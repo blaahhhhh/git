@@ -1,8 +1,21 @@
 body {
+  width: 800px;
+  flex-direction: column;
   display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  margin: 30px auto;
+  align-items: center;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
+}
+.inf {
+  margin: 0px 15px;
+  line-height: 7px;
 }
